@@ -1,13 +1,13 @@
 <main>
 
 
-  <article>
+  <article id="product">
     <img src="{{product.image}}" alt="{{product.alt}}" width="400">
-    <h1>{{product.name}}</h1>
-    <p>Category: {{product.category}}</p>
-    <p>{{product.description}}</p>
-    <p>Price: {{euro product.price}}</p>
-    <button type="button" data-add-to-cart="{{product.id}}">Add to cart</button>
+    <h1 id="product-name">{{product.name}}</h1>
+    <p id="product-category">Category: {{product.category}}</p>
+    <p id="product-description">{{product.description}}</p>
+    <p id="product-price">Price: {{euro product.price}}</p>
+    <button id="add-to-cart" type="button" data-add-to-cart="{{product.id}}">Add to cart</button>
     <p data-cart-message aria-live="polite"></p>
   </article>
 </main>
