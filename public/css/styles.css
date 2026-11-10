@@ -31,12 +31,12 @@ p {
 }
 
 .product{
-    border: 1px solid black;
-    border-radius: 5px;
-    color:aliceblue;
-    background-color: #c4c4c4;
-    padding: 1em;
-    margin: 1em;
+    width: min(760px, 92%);
+    margin: 40px auto;
+    padding: 28px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.12);
 }
 .product-name{
     font-size: 1.5em;
@@ -54,4 +54,11 @@ p {
     font-weight: italic;
     color: green;
 }
-
+.add-to-cart{
+padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    background-color: #2563eb;
+    cursor: pointer;
+}
